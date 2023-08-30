@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-tool-competition-2024-hypothesis-ghostwriter"
+version = "0.1.0"
+description = "Python Tool Competition 2024 implementation using Hypothesis ghostwriter"
+authors = ["Nicolas Erni <gann@zhaw.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-tool-competition-2024 = {git = "git@github.com:ThunderKey/python-tool-competition-2024.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."python_tool_competition_2024.test_generators"]
+hypothesis-ghostwriter = "python_tool_competition_2024_hypothesis_ghostwriter.generator:HypothesisGhostwriterTestGenerator"
