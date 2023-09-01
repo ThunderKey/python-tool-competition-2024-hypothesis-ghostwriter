@@ -1112,7 +1112,7 @@ name = "python-tool-competition-2024"
 version = "0.1.0"
 description = "Pipeline to create test generators"
 optional = false
-python-versions = "^3.11"
+python-versions = "^3.9"
 files = []
 develop = false
 
@@ -1125,12 +1125,13 @@ pytest = "^7.3.2"
 pytest-cov = "^4.1.0"
 rich = "^13.4.2"
 toml = "^0.10.2"
+typing-extensions = "^4.7.1"
 
 [package.source]
 type = "git"
 url = "git@github.com:ThunderKey/python-tool-competition-2024.git"
 reference = "HEAD"
-resolved_reference = "c12767f758fead763ff533e364c8ba3ca32051b0"
+resolved_reference = "c9276e7db8bd67c6a8b94353e861d89c0e8d37c0"
 
 [[package]]
 name = "pyyaml"
