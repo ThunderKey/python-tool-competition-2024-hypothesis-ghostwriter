@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-python-tool-competition-2024 = {git = "git@github.com:ThunderKey/python-tool-competition-2024.git"}
+python-tool-competition-2024 = "^0.1.0"
 hypothesis = {extras = ["cli"], version = "^6.82.7"}
 
 
