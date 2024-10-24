@@ -1,7 +1,7 @@
 # Python Tool Competition Implementation Using Hypothesis ghostwriter
 
 Uses the python-tool-competition-2024 to generate tests using the
-Hypothesis ghostwriter.
+Hypothesis ghostwriter. It is important to note that we have used Ghostwriter in a way is not (ideally) intended to (e.g., the ghostwriter often explicitly requires the user to provide some input), for a statement on how to use it for research prurposes, please refer to https://hypothesis.readthedocs.io/en/latest/ghostwriter.html#a-note-for-test-generation-researchers
 
 For more information see
 <https://github.com/ThunderKey/python-tool-competition-2024/>.
